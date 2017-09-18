@@ -14,6 +14,11 @@
 		E20638311F6D3EA9004E726F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20638301F6D3EA9004E726F /* Assets.xcassets */; };
 		E20638341F6D3EA9004E726F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20638321F6D3EA9004E726F /* LaunchScreen.storyboard */; };
 		E206383C1F6D3F86004E726F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E206383B1F6D3F86004E726F /* GoogleService-Info.plist */; };
+		E20638431F6ED41E004E726F /* LoginScreenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20638421F6ED41E004E726F /* LoginScreenHeader.swift */; };
+		E20638461F6ED538004E726F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20638451F6ED538004E726F /* Constants.swift */; };
+		E20638481F6EDA10004E726F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20638471F6EDA10004E726F /* RoundedButton.swift */; };
+		E206384B1F6F3FF7004E726F /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206384A1F6F3FF7004E726F /* TextField.swift */; };
+		E206384D1F6F41F3004E726F /* RoundedButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206384C1F6F41F3004E726F /* RoundedButton2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		E20638331F6D3EA9004E726F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E20638351F6D3EA9004E726F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E206383B1F6D3F86004E726F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E20638421F6ED41E004E726F /* LoginScreenHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenHeader.swift; sourceTree = "<group>"; };
+		E20638451F6ED538004E726F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E20638471F6EDA10004E726F /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		E206384A1F6F3FF7004E726F /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		E206384C1F6F41F3004E726F /* RoundedButton2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton2.swift; sourceTree = "<group>"; };
 		EBEB07BBF4E44278E22AC814 /* Pods-ChatMediaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatMediaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatMediaApp/Pods-ChatMediaApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +90,7 @@
 		E20638281F6D3EA9004E726F /* ChatMediaApp */ = {
 			isa = PBXGroup;
 			children = (
+				E20638441F6ED511004E726F /* Utilities */,
 				E206383F1F6D44F3004E726F /* Controller */,
 				E206383E1F6D44EE004E726F /* View */,
 				E206383D1F6D44E5004E726F /* Model */,
@@ -103,6 +114,10 @@
 		E206383E1F6D44EE004E726F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E20638421F6ED41E004E726F /* LoginScreenHeader.swift */,
+				E20638471F6EDA10004E726F /* RoundedButton.swift */,
+				E206384A1F6F3FF7004E726F /* TextField.swift */,
+				E206384C1F6F41F3004E726F /* RoundedButton2.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -113,6 +128,14 @@
 				E206382B1F6D3EA9004E726F /* LogInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		E20638441F6ED511004E726F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E20638451F6ED538004E726F /* Constants.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E206382C1F6D3EA9004E726F /* LogInVC.swift in Sources */,
+				E20638481F6EDA10004E726F /* RoundedButton.swift in Sources */,
 				E206382A1F6D3EA9004E726F /* AppDelegate.swift in Sources */,
+				E206384B1F6F3FF7004E726F /* TextField.swift in Sources */,
+				E20638431F6ED41E004E726F /* LoginScreenHeader.swift in Sources */,
+				E20638461F6ED538004E726F /* Constants.swift in Sources */,
+				E206384D1F6F41F3004E726F /* RoundedButton2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
