@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DBEE73515C58EBB6D3BF4B4D81F37CBC'
-               BlueprintName = 'Pods-ChatMediaApp'
+               BlueprintIdentifier = 'F176EC1CA178B4BDE35B719A8993CD0D'
+               BlueprintName = 'SwiftKeychainWrapper'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-ChatMediaApp.framework'>
+               BuildableName = 'SwiftKeychainWrapper.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
