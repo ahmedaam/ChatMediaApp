@@ -19,6 +19,7 @@
 		E20638481F6EDA10004E726F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20638471F6EDA10004E726F /* RoundedButton.swift */; };
 		E206384B1F6F3FF7004E726F /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206384A1F6F3FF7004E726F /* TextField.swift */; };
 		E206384D1F6F41F3004E726F /* RoundedButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206384C1F6F41F3004E726F /* RoundedButton2.swift */; };
+		E20638501F75B772004E726F /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E206384F1F75B772004E726F /* FeedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E206384A1F6F3FF7004E726F /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		E206384C1F6F41F3004E726F /* RoundedButton2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton2.swift; sourceTree = "<group>"; };
 		E206384E1F739F7F004E726F /* ChatMediaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatMediaApp.entitlements; sourceTree = "<group>"; };
+		E206384F1F75B772004E726F /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		EBEB07BBF4E44278E22AC814 /* Pods-ChatMediaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatMediaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatMediaApp/Pods-ChatMediaApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				E206382B1F6D3EA9004E726F /* LogInVC.swift */,
+				E206384F1F75B772004E726F /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				E20638481F6EDA10004E726F /* RoundedButton.swift in Sources */,
 				E206382A1F6D3EA9004E726F /* AppDelegate.swift in Sources */,
 				E206384B1F6F3FF7004E726F /* TextField.swift in Sources */,
+				E20638501F75B772004E726F /* FeedVC.swift in Sources */,
 				E20638431F6ED41E004E726F /* LoginScreenHeader.swift in Sources */,
 				E20638461F6ED538004E726F /* Constants.swift in Sources */,
 				E206384D1F6F41F3004E726F /* RoundedButton2.swift in Sources */,
