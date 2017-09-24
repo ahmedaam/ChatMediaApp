@@ -16,7 +16,7 @@ class LoginScreenHeader: UIView {
         layer.shadowOpacity = 1.0
         layer.shadowRadius = 5.0
         layer.shadowOffset = CGSize(width: 1, height: 1)
-//        layer.cornerRadius = 10.0
+        layer.cornerRadius = 2.0
         
     }
 }
