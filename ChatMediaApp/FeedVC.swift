@@ -19,6 +19,12 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        DataService.ds.REF_POSTS.observe(.value, with: { (snapshot) in
+            print(snapshot.value)
+            
+        })
+        
         tableView.delegate = self
         tableView.dataSource = self
         

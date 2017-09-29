@@ -82,7 +82,7 @@ class LogInVC: UIViewController {
                                 self.completedSignIn(id: user.uid, userData: userData)
                             }
                         }
-                    })
+                        })
                 }
             })
         }
